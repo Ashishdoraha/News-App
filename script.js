@@ -73,30 +73,3 @@ searchButton.addEventListener('click' ,() =>{
 
 });
 
-// function fillDataInCard(cardClone, article) { // Corrected function name
-//     const newsImg = cardClone.querySelector('#news-img'); // Corrected method name
-//     newsImg.src = article.urlToImage; // Fill in the image source
-//     // You can continue filling other data in the card as well
-//     const newsTitle = cardClone.querySelector('#news-title');
-//     const newsSource = cardClone.querySelector('#news-source');
-//     const newsDesc = cardClone.querySelector('#news-desc');
-
-//     nameImg.src=article.urlToImage;
-//     newsTitle.innerHTML=article.title;
-//     newsDesc.innerHTML = article.description;
-
-//     const date = new Date(article.publishedAt).toLocaleString("en-US",{
-//         timeZone:"Asia/Jakarta"
-//     });
-// }
-// function fillDataInCard(cardClone, article) {
-//     const newsImg = cardClone.querySelector('.news-img');
-//     const newsTitle = cardClone.querySelector('.news-title');
-//     const newsDescription = cardClone.querySelector('.news-description');
-//     const newsLink = cardClone.querySelector('.news-link');
-
-//     newsImg.src = article.urlToImage;
-//     newsTitle.textContent = article.title;
-//     newsDescription.textContent = article.description;
-//     newsLink.href = article.url;
-// }
